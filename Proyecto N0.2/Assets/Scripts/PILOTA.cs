@@ -19,7 +19,7 @@
 //        if (!string.IsNullOrEmpty(nombre))
 //        {
 //            pilanombres.Push(nombre);
-//            inputNombre.text = ""; // limpiar input
+//            inputNombre.text = ""; 
 //            MostrarMensaje($"Se ha agregado: {nombre}");
 //        }
 //        else
@@ -70,7 +70,7 @@
 //        RefrescarUI();
 //    }
 
-//    // === Actualizar la lista en el TMP_Text ===
+//    // 
 //    private void RefrescarUI()
 //    {
 //        if (txtLista)
