@@ -554,7 +554,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   imagenPredeterminada: {fileID: -3927112052221418867, guid: 241e225665235a948bbf244c5c03ae50, type: 3}
-  imgPreview: {fileID: 0}
+  imgPreview: {fileID: 930039965}
   txtMensaje: {fileID: 860510231}
 --- !u!4 &238552994
 Transform:
@@ -1079,9 +1079,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8b04607cfd243e42ab5af78faa5e763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputNombre: {fileID: 931442233}
-  txtLista: {fileID: 1954970652}
-  txtMensaje: {fileID: 860510231}
 --- !u!4 &412902814
 Transform:
   m_ObjectHideFlags: 0
@@ -1327,7 +1324,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3baed35db3fa59f4d919112299946eaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputNombre: {fileID: 0}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -1535,9 +1531,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8b04607cfd243e42ab5af78faa5e763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputNombre: {fileID: 0}
-  txtLista: {fileID: 0}
-  txtMensaje: {fileID: 0}
 --- !u!222 &860510233
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2514,7 +2507,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3baed35db3fa59f4d919112299946eaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputNombre: {fileID: 0}
 --- !u!1 &1741225292
 GameObject:
   m_ObjectHideFlags: 0
