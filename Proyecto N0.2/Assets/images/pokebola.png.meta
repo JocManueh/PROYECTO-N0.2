@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pokebola_0: -3927112052221418867
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
