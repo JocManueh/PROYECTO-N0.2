@@ -7,6 +7,9 @@ public class GameManager : MonoBehaviour
 
     private float globalTime;
 
+    private int scoreApple;
+    private int scoreBanana;
+
 
 
     void Awake()
@@ -38,6 +41,14 @@ public class GameManager : MonoBehaviour
     public void TotalTime(float timeScene)
     {
         globalTime += timeScene;
+    }
+    public void TotalApple(int apple)
+    {
+    
+    }
+    public void TotalBanana(int Banana)
+    {
+
     }
 
     public float GlobalTime { get => globalTime; set => globalTime = value; }

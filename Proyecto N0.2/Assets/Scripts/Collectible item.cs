@@ -2,6 +2,12 @@ using UnityEngine;
 
 public class Collectibleitem : MonoBehaviour
 {
+    public enum ItemType { Apple,Banana }
+
+    public ItemType type=ItemType.Apple;
+    public int itemValue=1;
+
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -11,6 +17,22 @@ public class Collectibleitem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player")) 
+        
+            switch (type)
+            {
+                case ItemType.Apple:
+                    GameManager.Instance.TotalApple(itemValue); break;
+
+                case ItemType.Banana:
+                    GameManager.Instance.TotalBanana(itemValue); break;
+
+            }
+        Destroy(gameObject);
         
     }
 }
